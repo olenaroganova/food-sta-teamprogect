@@ -39,3 +39,16 @@ address {
   padding: 0 16px;
   margin: 0 auto;
 }
+.header-container {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+.logo {
+  margin-right: auto;
+}
+.nav {
+  margin-right: 30px;
+}
