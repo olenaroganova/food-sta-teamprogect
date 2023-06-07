@@ -8,7 +8,14 @@ h6,
 p {
   margin: 0;
 }
-
+* {
+  box-sizing: border-box;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /* Клас для обнулення базових властивостей списків (ul) */
 .list {
   list-style: none;
@@ -51,4 +58,44 @@ address {
 }
 .nav {
   margin-right: 30px;
+}
+/*---------Favorites--------*/
+
+.favorites {
+  padding-top: 100px;
+}
+
+.container-favorites {
+  /*-----outline: 1px solid red;-----*/
+}
+.favorites-title {
+  min-width: 656px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+.favorites-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+.favorites-item {
+  border-radius: 164.5px;
+}
+.favorites-img {
+  padding: 41px 40px;
+  margin-right: 0;
 }
