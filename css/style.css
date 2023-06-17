@@ -41,6 +41,7 @@ address {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -51,4 +52,31 @@ address {
 }
 .nav {
   margin-right: 30px;
+}
+
+.nav-item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #2c2c2c;
+}
+.current {
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: #bbf330;
+}
+
+.header-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  background: #bbf330;
+  border-radius: 30px;
+  padding: 6px 18px;
+  border: none;
 }
