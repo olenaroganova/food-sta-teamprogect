@@ -52,3 +52,50 @@ address {
 .nav {
   margin-right: 30px;
 }
+
+/**-- Offerings Yuilia--*/
+
+.offerings {
+}
+.offerings-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.offerings-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.list {
+}
+.offerings-list {
+}
+.offerings-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #2c2c2c;
+}
+.offerings-subtext {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.offerings-btn {
+  background: #ffffff;
+  color: #2c2c2c;
+  cursor: pointer;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  font-weight: 500;
+font-size: 13px;
+line-height: 2;
+}
+
+.offerings-btn:hover {
+  background: #BBF330;
+  outline: transparent;
+  border-color: #BBF330;
+}
