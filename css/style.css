@@ -56,22 +56,70 @@ address {
 /**-- Offerings Yuilia--*/
 
 .offerings {
+  background-image: url(../img/Rectangle694.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 824px;
+  padding-top: 260px;
 }
+
+
+
+.off-set {
+  display: flex;
+justify-content: center;
+ align-items: center;
+}
+
+.off-title {
+  display: flex;
+  flex-direction: column;
+  width: 573px;
+  margin-left: 160px;
+}
+
 .offerings-title {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
   color: #2c2c2c;
+  margin-bottom: 20px;
 }
 .offerings-text {
   font-size: 16px;
   line-height: 1.5;
   color: #2c2c2c;
+  margin-bottom: 40px;
+  width: 500px;
+  height: 72px;
 }
+
+.off-order {
+}
+
 .list {
 }
 .offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
 }
+
+.off-icons {
+
+}
+
+.icon {
+    background: #FEFEFE;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .offerings-subtitle {
   font-weight: 700;
   font-size: 18px;
@@ -92,6 +140,8 @@ address {
   font-weight: 500;
 font-size: 13px;
 line-height: 2;
+width: 106px;
+height: 40px;
 }
 
 .offerings-btn:hover {
